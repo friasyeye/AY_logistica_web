@@ -81,19 +81,22 @@ export function TeamSection() {
             style={{
               fontFamily: "'Instrument Serif', serif",
               fontStyle: "italic",
-              fontSize: 36,
+              fontSize: 48,
+              fontWeight: 400,
               color: "rgba(0,0,0,0.4)",
-              margin: "0 0 8px",
+              letterSpacing: "-1.44px",
+              margin: "0 0 4px",
             }}
           >
             Our heroes
           </p>
           <h2
             style={{
-              fontFamily: "Inter, sans-serif",
-              fontWeight: 800,
+              fontFamily: "'Uncut Sans Variable', sans-serif",
+              fontWeight: 1000,
               fontSize: 48,
               color: "#09040d",
+              letterSpacing: "-0.96px",
               margin: 0,
             }}
           >
@@ -146,8 +149,10 @@ export function TeamSection() {
               {/* Name */}
               <p
                 style={{
-                  fontWeight: 600,
-                  fontSize: 18,
+                  fontFamily: "Inter, sans-serif",
+                  fontWeight: 400,
+                  fontSize: 22,
+                  letterSpacing: "-0.44px",
                   color: "#09040d",
                   margin: 0,
                 }}
@@ -184,8 +189,10 @@ export function TeamSection() {
         >
           <span
             style={{
+              fontFamily: "'Instrument Sans', sans-serif",
               fontWeight: 600,
-              fontSize: 20,
+              fontSize: 22,
+              letterSpacing: "-0.22px",
               color: "#09040d",
             }}
           >

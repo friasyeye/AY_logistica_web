@@ -32,7 +32,7 @@ export default function ValuesSection() {
             <div style={{ width: 64, height: 64, borderRadius: 16, backgroundColor: '#f6f6f3', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 2px 8px rgba(0,0,0,0.06)' }}>
               <value.Icon width={28} height={28} color="#09040d" />
             </div>
-            <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 18, color: '#09040d', marginTop: 8 }}>
+            <span style={{ fontFamily: "'Instrument Sans', sans-serif", fontWeight: 700, fontSize: 22, color: '#09040d', marginTop: 8, letterSpacing: '-0.22px' }}>
               {value.title}
             </span>
             <span style={{ fontFamily: 'Inter, sans-serif', fontSize: 14, color: 'rgba(0,0,0,0.5)', lineHeight: 1.5 }}>

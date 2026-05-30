@@ -22,12 +22,12 @@ export function CTASection() {
       >
         <h2
           style={{
-            fontFamily: "Inter, sans-serif",
-            fontWeight: 800,
-            fontSize: 56,
+            fontFamily: "'Uncut Sans Variable', sans-serif",
+            fontWeight: 1000,
+            fontSize: 52,
             color: "white",
             lineHeight: 1.1,
-            letterSpacing: -1,
+            letterSpacing: "-1.56px",
             maxWidth: 700,
             margin: 0,
           }}

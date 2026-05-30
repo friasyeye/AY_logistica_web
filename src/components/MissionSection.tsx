@@ -8,9 +8,9 @@ export default function MissionSection() {
           <span style={{ fontFamily: "'Instrument Serif', serif", fontStyle: 'italic', fontSize: 18, fontWeight: 400, color: 'rgba(0,0,0,0.5)' }}>Mission</span>
         </div>
         {/* Large paragraph - two-toned */}
-        <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 40, lineHeight: 1.3, textAlign: 'center', fontWeight: 400, margin: 0 }}>
-          <span style={{ color: 'rgba(0,0,0,0.28)' }}>Ask people about managing energy costs and you&apos;ll see them stress. </span>
-          <strong style={{ fontWeight: 800, color: '#09040d' }}>Ask people about optimizing energy performance and you&apos;ll hear how it&apos;s overwhelming. Our mission is to change that.</strong>
+        <p style={{ fontFamily: "'Uncut Sans Variable', sans-serif", fontSize: 38, lineHeight: '38px', textAlign: 'center', fontWeight: 1000, letterSpacing: '-0.76px', margin: 0 }}>
+          <span style={{ color: 'rgba(0,0,0,0.28)', fontWeight: 1000 }}>Ask people about managing energy costs and you&apos;ll see them stress. </span>
+          <span style={{ color: '#09040d' }}>Ask people about optimizing energy performance and you&apos;ll hear how it&apos;s overwhelming. Our mission is to change that.</span>
         </p>
       </div>
     </section>

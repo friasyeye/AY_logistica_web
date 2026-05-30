@@ -11,7 +11,7 @@ export default function StatsSection() {
       <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around', maxWidth: 1200, width: '100%', gap: 40 }}>
         {stats.map((stat) => (
           <div key={stat.label} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 12 }}>
-            <span style={{ fontSize: 80, fontWeight: 800, color: '#09040d', lineHeight: 1, letterSpacing: -2 }}>
+            <span style={{ fontFamily: "'Uncut Sans Variable', sans-serif", fontSize: 72, fontWeight: 1000, color: '#09040d', lineHeight: 1, letterSpacing: '-2.88px' }}>
               {stat.number}
             </span>
             <span style={{ fontSize: 16, fontWeight: 400, color: 'rgba(0,0,0,0.5)', textAlign: 'center', maxWidth: 140, lineHeight: 1.4 }}>

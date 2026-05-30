@@ -53,11 +53,12 @@ function FactsNumbersCard() {
       <div>
         <div
           style={{
-            fontSize: 88,
-            fontWeight: 800,
+            fontSize: 110,
+            fontWeight: 500,
             color: "#09040d",
             lineHeight: 1,
-            fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif",
+            letterSpacing: "-4.4px",
+            fontFamily: "'Inter Display', Inter, sans-serif",
           }}
         >
           73%

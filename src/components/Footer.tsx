@@ -48,12 +48,12 @@ export function Footer() {
           </div>
           <p
             style={{
-              fontFamily: "Inter, sans-serif",
-              fontWeight: 800,
-              fontSize: 72,
+              fontFamily: "'Instrument Sans', sans-serif",
+              fontWeight: 700,
+              fontSize: 48,
               color: "#09040d",
-              lineHeight: 1,
-              letterSpacing: -2,
+              lineHeight: "48px",
+              letterSpacing: "-1.92px",
               marginTop: 12,
               marginBottom: 0,
             }}

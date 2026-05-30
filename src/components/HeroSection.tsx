@@ -24,10 +24,11 @@ export default function HeroSection() {
           style={{
             fontFamily: "'Instrument Serif', serif",
             fontStyle: "italic",
-            fontSize: "48px",
+            fontSize: "52px",
             fontWeight: 400,
-            color: "rgba(0, 0, 0, 0.28)",
-            lineHeight: 1.2,
+            color: "rgba(0, 0, 0, 0.5)",
+            lineHeight: "57.2px",
+            letterSpacing: "-2.08px",
             marginBottom: 0,
             marginTop: 0,
           }}
@@ -37,12 +38,12 @@ export default function HeroSection() {
 
         <h1
           style={{
-            fontFamily: "Inter, sans-serif",
-            fontWeight: 800,
-            fontSize: "68px",
+            fontFamily: "'Uncut Sans Variable', sans-serif",
+            fontWeight: 1000,
+            fontSize: "52px",
             color: "#09040d",
-            lineHeight: 1.1,
-            letterSpacing: "-2px",
+            lineHeight: "52px",
+            letterSpacing: "-1.56px",
             maxWidth: "820px",
             margin: 0,
           }}
