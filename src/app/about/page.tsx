@@ -14,8 +14,8 @@ export default function AboutPage() {
       <Navbar />
       <main>
         <HeroSection />
-        <CarouselSection />
         <MissionSection />
+        <CarouselSection />
         <StatsSection />
         <TeamSection />
         <ValuesSection />

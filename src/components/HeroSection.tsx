@@ -2,70 +2,111 @@ export default function HeroSection() {
   return (
     <section
       style={{
+        position: "relative",
         minHeight: "100vh",
-        background: "linear-gradient(to bottom, #f6f6f3 0%, #ebe9e6 100%)",
+        width: "100%",
+        overflow: "hidden",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        padding: "120px 40px 80px",
       }}
     >
+      {/* Video de fondo */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="metadata"
+        style={{
+          position: "absolute",
+          inset: 0,
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          objectPosition: "center",
+          backgroundColor: "#0a0a0a",
+        }}
+      >
+        <source src="/videos/hero.mp4" type="video/mp4" />
+      </video>
+
+      {/* Overlay oscuro para legibilidad */}
       <div
         style={{
+          position: "absolute",
+          inset: 0,
+          background: "linear-gradient(to bottom, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.55) 100%)",
+        }}
+      />
+
+      {/* Contenido encima del vídeo */}
+      <div
+        style={{
+          position: "relative",
+          zIndex: 1,
           textAlign: "center",
           maxWidth: "900px",
+          width: "100%",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
           gap: "24px",
+          padding: "120px 24px 80px",
         }}
       >
-        <p
-          style={{
-            fontFamily: "'Instrument Serif', serif",
-            fontStyle: "italic",
-            fontSize: "52px",
-            fontWeight: 400,
-            color: "rgba(0, 0, 0, 0.5)",
-            lineHeight: "57.2px",
-            letterSpacing: "-2.08px",
-            marginBottom: 0,
-            marginTop: 0,
-          }}
-        >
-          What drives us
-        </p>
-
         <h1
           style={{
-            fontFamily: "'Uncut Sans Variable', sans-serif",
-            fontWeight: 1000,
-            fontSize: "52px",
-            color: "#09040d",
-            lineHeight: "52px",
-            letterSpacing: "-1.56px",
+            fontFamily: "var(--font-inter), Inter, sans-serif",
+            fontWeight: 800,
+            fontSize: "clamp(24px, 4vw, 44px)",
+            color: "#ffffff",
+            lineHeight: 1.08,
+            letterSpacing: "-1.5px",
             maxWidth: "820px",
             margin: 0,
           }}
         >
-          Helping you moving from idea to launch – fast
+          Más orden, más control y menos gestión manual en la operativa logística
         </h1>
 
-        <button
+        <p
           style={{
-            backgroundColor: "rgba(0, 0, 0, 0.75)",
-            color: "#ffffff",
-            borderRadius: "50px",
-            padding: "14px 32px",
-            fontSize: "16px",
-            fontWeight: 500,
-            border: "none",
-            cursor: "pointer",
-            marginTop: "8px",
+            fontFamily: "var(--font-inter), Inter, sans-serif",
+            fontStyle: "normal",
+            fontSize: "clamp(15px, 1.3vw, 18px)",
+            fontWeight: 400,
+            color: "rgba(255, 255, 255, 0.6)",
+            lineHeight: 1.5,
+            maxWidth: "560px",
+            margin: 0,
           }}
         >
-          Get to know us
-        </button>
+          Ayudamos a empresas de logística, transporte y departamentos logísticos a reducir su carga operativa mediante soluciones digitales personalizadas con IA
+        </p>
+
+        <a
+          href="https://calendly.com/alexfrias-ia/30min?month=2026-06"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            backgroundColor: "rgba(255, 255, 255, 0.12)",
+            backdropFilter: "blur(10px)",
+            color: "#ffffff",
+            borderRadius: "50px",
+            padding: "15px 36px",
+            fontSize: "16px",
+            fontWeight: 500,
+            fontFamily: "var(--font-inter), Inter, sans-serif",
+            border: "none",
+            cursor: "pointer",
+            textDecoration: "none",
+            marginTop: "8px",
+            display: "inline-block",
+          }}
+        >
+          Quiero ver cómo funciona
+        </a>
       </div>
     </section>
   );

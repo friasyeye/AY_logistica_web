@@ -1,11 +1,11 @@
 export function CTASection() {
   return (
-    <div style={{ backgroundColor: "white", padding: "0 40px" }}>
+    <div style={{ backgroundColor: "white", padding: "0 clamp(16px, 4vw, 40px)" }}>
       <div
         style={{
-          backgroundColor: "#09040d",
+          backgroundColor: "#29572D",
           borderRadius: 32,
-          padding: "100px 60px",
+          padding: "80px clamp(24px, 5vw, 60px)",
           maxWidth: 1200,
           margin: "0 auto",
           display: "flex",
@@ -24,7 +24,7 @@ export function CTASection() {
           style={{
             fontFamily: "'Uncut Sans Variable', sans-serif",
             fontWeight: 1000,
-            fontSize: 52,
+            fontSize: "clamp(28px, 5vw, 52px)",
             color: "white",
             lineHeight: 1.1,
             letterSpacing: "-1.56px",
@@ -32,23 +32,13 @@ export function CTASection() {
             margin: 0,
           }}
         >
-          Start generating revenue in days, not months
+          Tu operativa puede funcionar sola. Nosotros te lo demostramos.
         </h2>
 
-        <p
-          style={{
-            fontSize: 18,
-            color: "rgba(255,255,255,0.6)",
-            lineHeight: 1.5,
-            maxWidth: 560,
-            margin: 0,
-          }}
-        >
-          Launch your professional website today and start converting visitors
-          into paying customers immediately.
-        </p>
-
-        <button
+        <a
+          href="https://calendly.com/alexfrias-ia/30min?month=2026-06"
+          target="_blank"
+          rel="noopener noreferrer"
           style={{
             backgroundColor: "white",
             color: "#09040d",
@@ -58,10 +48,13 @@ export function CTASection() {
             fontWeight: 600,
             border: "none",
             cursor: "pointer",
+            textDecoration: "none",
+            display: "inline-block",
+            marginTop: 8,
           }}
         >
-          Get Free Demo
-        </button>
+          Quiero ver el sistema
+        </a>
       </div>
     </div>
   );
